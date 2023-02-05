@@ -1,7 +1,5 @@
 # Automatic Parameter Tuning for Plug-and-Play Algorithms Using Generalized Cross Validation and Stein's Unbiased Risk Estimation for Linear Inverse Problems in Computational Imaging
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=cekmekci/SURE-GCV-PnP-Tuning) 
-
 [Canberk Ekmekci](https://cekmekci.github.io/) and Mujdat Cetin
 
 [SDIS Lab](https://labsites.rochester.edu/sdis), Rochester, NY USA
