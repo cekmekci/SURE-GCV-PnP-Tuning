@@ -26,3 +26,10 @@ This repo contains a demo illustrating the use of the proposed GCV-based tuning 
 
 Before running the demo, please download the pre-trained weights of the denoiser ("drunet_gray.pth") from [DPIR](https://github.com/cszn/DPIR/tree/master/model_zoo) repo and place it inside the "/models/" folder. Then, the demo can be run by running the "main_mri_demo.py" file. With the default parameters, the runtime is around 1 hour on a Tesla T4 GPU.
 
+
+## Note
+
+This repository contains the "revised" version of the code used to run the experiments in the published manuscript because the previous version of the code was held together with duct tape. You will be better off using the implementation provided in this repo. If you have any problems or questions, please feel free to contact me via [e-mail](https://cekmekci.github.io/contact/). 
+
+
+
