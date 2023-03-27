@@ -10,7 +10,7 @@ This repo contains a demo illustrating the use of the proposed GCV-based tuning 
 
 **Abstract:** We propose two automatic parameter tuning methods for Plug-and-Play (PnP) algorithms that use CNN denoisers. We focus on linear inverse problems and propose an iterative algorithm to calculate generalized cross-validation (GCV) and Stein?s unbiased risk estimator (SURE) functions for a half-quadratic splitting-based PnP (PnP-HQS) algorithm that uses a state-of- the-art CNN denoiser. The proposed methods leverage forward mode automatic differentiation to calculate the GCV and SURE functions and tune the parameters of a PnP-HQS algorithm automatically by minimizing the GCV and SURE functions using grid search. Because linear inverse problems appear frequently in computational imaging, the proposed methods can be applied in various domains. Furthermore, because the proposed methods rely on GCV and SURE functions, they do not require access to the ground truth image and do not require collecting an additional training dataset, which is highly desirable for imaging applications for which acquiring data is costly and time-consuming. We evaluate the performance of the proposed methods on deblurring and MRI experiments and show that the GCV-based proposed method achieves comparable performance to that of the oracle tuning method that adjusts the parameters by maximizing the structural similarity index between the ground truth image and the output of the PnP algorithm. We also show that the SURE-based proposed method often leads to worse performance compared to the GCV-based proposed method.
 
-[[Paper Link]]()
+[[Paper Link]](https://library.imaging.org/ei/articles/35/14/COIMG-170)
 
 ## Requirements
 
@@ -30,6 +30,20 @@ Before running the demo, please download the pre-trained weights of the denoiser
 ## Note
 
 This repository contains the "revised" version of the code used to run the experiments in the published manuscript because the previous version of the code was held together with duct tape. You will be better off using the implementation provided in this repo. If you have any problems or questions, please feel free to contact me via [e-mail](https://cekmekci.github.io/contact/). 
+
+## Citation (TBD)
+----------
+If you use the code for your research, please consider citing the following paper:
+
+```BibTex
+ @inproceedings{Ekmekci2023PnPTuning,
+   title={Automatic Parameter Tuning for {P}lug-and-{P}lay Algorithms Using Generalized Cross Validation and {S}tein's Unbiased Risk Estimation for Linear Inverse Problems in Computational Imaging},
+   author={Ekmekci, Canberk and Cetin, Mujdat},
+   booktitle={Electronic Imaging 2023},
+   pages={170-1--170-6},
+   year={2023},
+ }
+```
 
 
 
