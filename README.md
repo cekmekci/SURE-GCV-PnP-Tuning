@@ -29,7 +29,7 @@ Before running the demo, please download the pre-trained weights of the denoiser
 
 ## Note
 
-This repository contains the "revised" version of the code used to run the experiments in the published manuscript because the previous version of the code was held together with duct tape. You will be better off using the implementation provided in this repo. If you have any problems or questions, please feel free to contact me via [e-mail](https://cekmekci.github.io/contact/). 
+This repository contains the "revised" version of the code used to run the experiments in the published manuscript because the previous version of the code was held together with duct tape. You will be better off using the implementation provided in this repo. The results might slightly differ from the paper. If you have any problems or questions, please feel free to contact me via [e-mail](https://cekmekci.github.io/contact/). 
 
 ## Citation (TBD)
 ----------
